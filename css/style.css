@@ -1,0 +1,363 @@
+
+
+/*  Start Header Section */
+
+.header-section{
+	background: url("../img/img-6.jpg") no-repeat top center;
+	-webkit-background-size: cover;
+	   -moz-background-size: cover;
+	     -o-background-size: cover;
+	        background-size: cover;
+	height: 100vh;
+	padding: 20px 0;
+}
+
+.header-section .header-button {
+    background-color: transparent;
+    color: #fff;
+    border: 2px solid #fff;
+    padding: 6px 20px;
+	margin-top: 20px;
+    font-weight: 600;
+	-webkit-transition: background-color .5s ease;
+	   -moz-transition: background-color .5s ease;
+	     -o-transition: background-color .5s ease;
+	        transition: background-color .5s ease
+}
+
+.header-section .header-button:hover {
+    background-color: #1bbc9b;
+    border: 2px solid #1bbc9b
+}
+
+/*  End Header Section */
+
+/* Start Slider */
+.header-section .carousel-caption {
+    bottom: 0;
+    top: 50%;
+    margin-top: -90px
+}
+
+.header-section .carousel-caption h2{
+	text-transform: uppercase
+}
+
+.header-section .carousel-caption h2 span{
+	color: #1bbc9b
+}
+
+.header-section .carousel-caption p{
+    width: 80%;
+    margin: auto;
+	margin-top: 20px
+}
+
+/* End Slider */
+
+/* Start Nav Bar */
+.navbar .navbar-brand{
+	color: #fff !important;
+	font-size: 38px;
+    text-transform: uppercase
+}
+
+.navbar .navbar-nav .nav-link{
+	color: #fff !important;
+	text-transform: uppercase;
+	font-weight: 600
+}
+
+.navbar .navbar-nav .nav-link.active,
+.navbar .navbar-nav .nav-link:hover{
+	color: #1bbc9b !important;
+	border-bottom: 2px solid #1bbc9b
+}
+/* End Nav Bar */
+
+/* Start our services Section */
+.our-services{
+	padding: 70px 0 0
+}
+
+.our-services .container:after{
+	content: "";
+	display: block;
+	max-width: 100%;
+	height: 1px;
+	background-color: #d5d5d5;
+	margin-top: 50px
+}
+
+.our-services h3{
+	margin-bottom: 50px
+}
+
+.our-services .service-box{
+	margin-bottom: 20px;
+	display: flex;
+}
+
+.our-services .service-box i{
+	margin-right: 20px;
+	color: #1bbc9b;
+	width: 30%
+}
+
+.our-services .service-box-body p{
+	color: #bababa;
+	font-size: 14px;
+}
+
+/* End our services Section */
+
+/* Start our team Section */
+.our-team{
+	padding: 70px 0 20px
+}
+
+.our-team .our-team-desc h3{
+	margin-bottom: 20px
+}
+
+.our-team .our-team-desc p{
+	color: #bababa;
+	font-size: 14px;
+	text-align: justify
+}
+
+.our-team .our-team-img {
+	position: relative;
+}
+
+.our-team .our-team-img .overlay{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(27, 188, 155, 0.77);
+	display: none;
+	align-items: center;
+	justify-content: center;
+}
+
+.our-team .our-team-img:hover .overlay{
+	display: flex;
+	cursor: pointer
+}
+
+.our-team .our-team-img .overlay h5{
+	color:#fff
+}
+
+.our-team .our-team-img .overlay h5:after{
+	content: "";
+	display: block;
+	width: 20px;
+	height: 1px;
+	background-color: #fff;
+	margin: 5px 0
+}
+
+.our-team .our-team-img img{
+	width : 100%
+}
+/* End our team Section */
+
+
+/* Start testimonials Section */
+.testimonials{
+	background: url("../img/testimonials-background.jpg") no-repeat center center;
+	background-size: cover;
+	height: 50vh;
+	position: relative
+}
+
+.testimonials .overlay{
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	background-color: rgba(3,3,3,.4);
+	top: 0;
+	left:0;
+	z-index: 1
+}
+
+.testimonials .testimonials-body{
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	top: 0;
+	left:0;
+	z-index: 2;
+	padding: 50px 0;
+}
+
+.testimonials .testimonials-body h2 {
+	color: #fff;
+}
+
+.testimonials .testimonials-body h2.line-bottom:after {
+	margin: 10px auto;
+	width: 100px;
+	background-color: #1bbc9b;
+	height: 2px;
+}
+
+.testimonials .carousel-item {
+	height: calc(50vh - 167px);
+}
+
+.testimonials .carousel-caption {
+    bottom: 0;
+    top: 50%;
+    margin-top: -40px
+}
+
+.testimonials .carousel-caption p{
+    color: #fff;
+	font-size: 14px;
+	line-height: 1.7;
+}
+
+.testimonials .carousel-caption span{
+   color: #1bbc9b;
+}
+/* End testimonials Section */
+
+/* Start projects Section */
+.projects{
+	padding: 70px 0;
+}
+
+.projects h3{
+	margin-bottom: 20px
+}
+
+.projects ul li{
+	display: inline-block;
+	color: #bababa;
+	padding: 8px 20px;
+	border: 1px solid #bababa;
+	border-radius: 4px
+}
+
+.projects ul li.active,
+.projects ul li:hover{
+	color: #fff;
+	border: 1px solid #1bbc9b;
+	background-color: #1bbc9b;
+	cursor: pointer
+}
+
+.projects .projects-img{
+	margin-top: 30px;
+	position: relative
+}
+.projects .projects-img:hover .overlay{
+	display: block
+}
+.projects .projects-img .overlay{
+	position: absolute;
+	top:0;
+	left:0;
+	width: 100%;
+	height: 100%;
+	background-color: rgba(27, 188, 155, 0.77);
+	display:none
+}
+
+.projects .projects-img .overlay button{
+	position: absolute;
+	top:0;
+	left:0;
+	right:0;
+	bottom:0;
+	margin: auto;
+	height: 40px;
+	background-color: transparent;
+	color: #fff;
+	border: 1px solid #fff;
+	font-weight: 600;
+}
+
+.projects .projects-img .overlay p{
+	position: absolute;
+	right: 1rem;
+	bottom: 0;
+	color: #fff;
+	font-weight: 600;
+}
+
+.projects .projects-img img{
+	width: 100%;
+}
+/* End projects Section */
+
+/* Start footer Section */
+.footer-section{
+	padding: 70px 0 10px;
+	background-color: #232323;
+	color: #bababa
+}
+
+.footer-section h5{
+	margin-bottom: 25px
+}
+
+.footer-section .about p{
+    font-size: 14px;
+	text-align: justify
+}
+
+.footer-section .about ul li{
+	display: inline-block;
+	width: 30px;
+	height: 30px;
+	border: 1px solid #bababa;
+	line-height: 30px;
+	text-align: center
+}
+
+.footer-section .tags ul li{
+	display: inline-block;
+	border: 1px solid #bababa;
+	padding: 5px 10px;
+	margin-bottom: 5px;
+	font-size: 14px;
+	text-transform: uppercase
+}
+
+
+.footer-section .posts span{
+	color: #828282;
+	font-size: 14px;
+}
+
+.footer-section .blog ul li{
+	display: block;
+	border-bottom: 1px solid #bababa;
+	padding: 10px 0;
+	font-size: 14px;
+}
+.footer-section .about,
+.footer-section .tags,
+.footer-section .posts,
+.footer-section .blog{
+	margin-bottom: 20px
+}
+
+/* End footer Section */
+
+
+/* Start Our Framework */
+
+.line-bottom:after{
+	content: "";
+	display: block;
+	width: 44px;
+	height: 1px;
+	background-color: #000;
+	margin: 5px 0
+}
+
+/* Start Our Framework */
